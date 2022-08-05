@@ -8,16 +8,41 @@
 /* Resize image */
 img {
     width: 150px;
-    height: 200px;
+    height: 150px;
+}
+
+/* Make image float */
+.intro img {
+    float: left;
+    margin-right: 10px;
 }
 
 body {
     background-color: #bbdefb;
 }
 
+li {
+    list-style: none;
+}
+
 .nav-bar {
-    margin: 0;
-    padding: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+    background-color: teal;
+}
+
+.menu {
     display: flex;
     gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+}
+
+.menu li {
+    padding: 5px 14px;
 }
