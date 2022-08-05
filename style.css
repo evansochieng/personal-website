@@ -4,3 +4,20 @@
     margin: auto;
     text-align: center;
 }
+
+/* Resize image */
+img {
+    width: 150px;
+    height: 200px;
+}
+
+body {
+    background-color: #bbdefb;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
