@@ -18,9 +18,12 @@ img {
 }
 
 body {
-    background-color: #a8cdeb;
+    /*background-color: #17252A;*/
+    /*background-color: #1F2833;*/
+    background-color: #222629;
     margin: 30px;
     padding: 30px;
+    color: white;
 }
 
 li {
@@ -51,7 +54,10 @@ li {
 }
 /* End styling navigation bar */
 
+/* Style the different links in the Nav Bar*/
 /* Style skills div */
 .skills {
-    overflow: auto;
+    height: 400px;
+    width: 400px;
+    background-color: lightskyblue;
 }
